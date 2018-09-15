@@ -3,7 +3,10 @@ import React from 'react';
 function Button(props) {
 
     return (
-        <button onClick={() => props.loadNewUser()}>Load New User</button>
+        <button
+            onClick={() => props.loadNewUser()}
+            className={'btn btn-info'}
+        >Load New User</button>
     );
 }
 

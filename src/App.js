@@ -18,14 +18,9 @@ class App extends Component {
             .catch(error => console.log(error))
     }
 
-// <div>
-// {this.state.person.name.first}{' '}
-// {this.state.person.name.last}
-// </div>
-
     render() {
         return (
-          <div>
+          <div className={'container'}>
             <Button
                 loadNewUser={() => this.loadNewUser()}
             />
